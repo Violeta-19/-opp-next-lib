@@ -1,5 +1,5 @@
 {
-  "name": "opp-next-lib",
+  "name": "next-lib",
   "version": "1.0.0",
   "description": "A nice library",
   "main": "lib/index.js",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Violeta-19/-opp-next-lib.git"
+    "url": "git+https://github.com/Violeta-19/next-lib.git"
   },
   "keywords": ["Hello", "Greeter"],
    "author": "C-J",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Violeta-19/-opp-next-lib/issues"
+    "url": "https://github.com/Violeta-19/next-lib/issues"
   },
-  "homepage": "https://github.com/Violeta-19/-opp-next-lib#readme",
+  "homepage": "https://github.com/Violeta-19/next-lib#readme",
   "devDependencies": {
     "@types/jest": "^27.0.0",
     "jest": "^27.0.6",
@@ -35,6 +35,9 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.3.5"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@Violeta-19/next-lib"
+},
   "files":[
     "lib/**/*"
   ]
