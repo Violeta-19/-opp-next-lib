@@ -1,6 +1,6 @@
 {
   "name": "@violeta-19/next-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A nice library",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
